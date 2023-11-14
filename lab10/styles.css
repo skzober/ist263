@@ -15,3 +15,15 @@ nav a:hover {background-color:#f71303;}
 @media only screen and (min-width:800px){
     
 }
+.contact {
+    display: flex;
+}
+.linked {
+    margin-left: 30px;
+}
+.map {
+    display: flex;
+}
+.form {
+    margin-left: 15px;
+}
