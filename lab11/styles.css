@@ -4,7 +4,7 @@ nav
     padding: 10px;
     margin-bottom: 30px;
 }
-nav a{color:#62d158;}
+nav a{color:#000000;}
 nav a:hover {background-color:#f71303;}
 @media only screen and (max-width: 801px) {
     nav a{display:100%}
