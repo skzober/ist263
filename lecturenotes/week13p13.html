@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Text Example</title>
+    <style>
+        #syracuseText {
+            color: black;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+    function changeText() {
+        textElement = document.getElementById("syracuseText");
+        textElement.innerHTML = (textElement.innerHTML === "Syracuse University") ? "Orange Nation" : "Syracuse University";
+        textElement.style.color = (textElement.innerHTML.includes("Orange")) ? "orange" : "black";
+    }
+</script>
+</head>
+<body>
+
+<div id="syracuseText" onclick="changeText()">Syracuse University</div>
+
+</body>
+</html>
+
