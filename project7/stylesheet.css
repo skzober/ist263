@@ -1,0 +1,18 @@
+nav {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media only screen and (max-width: 601px) {
+    nav a{display:100%}
+    nav a{display: block;}
+    span{display: none;}
+    nav a{display: space-around;}
+}
+@media only screen and (min-width:600px){
+    
+}
+

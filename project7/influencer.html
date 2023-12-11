@@ -4,20 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Famous Influencers</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.png">
+    <style>
+        .maintitle{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+        .title{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .text{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+        .hailey{
+            height: 500px;
+        }
+        .rhode{
+            display:contents;
+            text-align: center;
+            max-width: 100px;
+            height: auto;
+            margin-right: 10px;
+        }
+        .col1{
+            display:flex;
+            align-items: center;
+
+        }
+        .col2{
+            flex-direction: column;
+            
+        }
+        
+        .col3{
+            display: flex;
+            align-items: center;
+        }
+        .title2{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            display: flex;
+            flex-wrap: wrap-reverse;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .col4{
+            flex-direction: column;
+        }
+    </style>
 </head>
 <body>
-    <h1>Famous Influencers</h1>
-    <h2>Hailey Bieber</h2>
-    <img src="../images/project 3 images/Hailey_Bieber_2020.jpg">
-    <p>Hailey Biebers is not only famous from the singer Justin but her own makeup and skincare line Rhode. Rhode is known for there amazing skin care and lip balms. Hailey does so many different drops of lip balms that are also sponsered with other brands which makes it more engaging for others.</p>
-    <img src="../images/project 3 images/download.png">
-    <img src="../images/project 3 images/rib-final-hero_2480x.webp">
-    <img src="../images/project 3 images/Desktop-Ribbon_Grid-2_c305089e-89fe-4873-bbd2-0e5b5ec7a89a_2480x.webp">
-    <h2>Danielle Bernstien: We Wore What</h2>
-    <img src="../images/project 3 images/download copy.png">
-    <p>The famous influencer Danielle Bernstien launched herself and company in 2010. She has been vlogging her life and then launched a line of clothing and named it We Wore What. This brand launches new lines each season for example like winter, resort or even the newest thing they launched is bags.</p><br>
-    <img src="../images/project 3 images/danielle-bernstein.webp">
-    <img src="../images/project 3 images/hbz-weworewhat-danielle-bernstein-overalls-06-1564676163.jpg">
+    <h1 class="maintitle">Famous Influencers</h1>
+<main>
+    <nav>
+        <a href="home.html">Home | </a>
+        <a href="viralproducts.html">Viral Products | </a>
+        <a href="influencer.html">Influencers  </a><br>
+    </nav>
+    <section>
+    
+    <h2 class="title">Hailey Bieber: Rhode</h2>
+    <div class="container">
+        <div class="col1"><img src="../images/project 3 images/Hailey_Bieber_2020.jpg" class= "hailey" alt="Hailey Bieber" height="300px" width="488"></div>
+        <div class="col2">
+            <img src="../images/project 3 images/download.png" alt="Rhode"  height="50px">
+            <img src="../images/project 3 images/rib-final-hero_2480x.webp" alt="Balm" height="100px">
+            <img src="../images/project 3 images/Desktop-Ribbon_Grid-2_c305089e-89fe-4873-bbd2-0e5b5ec7a89a_2480x.webp" alt="Lips"  height="100px">
+        </div>
+        
+    </div>
+    <p class="text">Haley Bieber is not only famous from her husband, celebrity and music artist Justin Bieber, but also from her own skincare line Rhode. Rhode is best known for their lip balms and skin products. Hailey frequently drops new lip balms and often collaborates to sponsor with other brands, which makes her product more engaging. </p>
+    </section>
 
+    <section>
+    <h2 class="title2">Danielle Bernstien: We Wore What</h2>
+
+    <div>
+        <div class="col3"><img src="../images/project 3 images/download copy.png" alt="WWW" height="100px"></div>
+        <div class="col4">
+            <img src="../images/project 3 images/danielle-bernstein.webp" alt="Danielle" class="imgs" height="100px">
+            <img src="../images/project 3 images/hbz-weworewhat-danielle-bernstein-overalls-06-1564676163.jpg" alt="DB" class="imgs" height="100px">
+            <img src="../images/project 3 images/new-weworewhat-collection-v0-ro8rslxtpjyb1.webp" alt="Bgas" class="imgs" height="100px">
+        </div>
+    </div>
+    
+    <p class="text">Danielle Bernstein is a famous influencer who launched her company, We Wore What, in 2010. She predominantly uses Instagram as her platform to vlog her life and promote her clothing brand. We Wore What launches new lines for each season. For example, during the summer vacation clothes are sold. Her newest line of clothing launched is for the upcoming holiday season, which includes a cozy collection. </p><br>
+    </section>
+</main>
 </body>
 </html>
