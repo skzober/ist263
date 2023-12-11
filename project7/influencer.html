@@ -11,49 +11,49 @@
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             text-align: center;
         }
-        .title{
+        .title,.title2{
             font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
         }
         .text{
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             
         }
-        .hailey{
-            height: 500px;
+        .line1 {
+        display:flex;
+        justify-content: space-around;
         }
-        .rhode{
-            display:contents;
-            text-align: center;
-            max-width: 100px;
-            height: auto;
-            margin-right: 10px;
+        /**
+        img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        }**/
+        .image-container {
+        display: flex;
+        align-items: center;
+        flex: 50%
         }
-        .col1{
-            display:flex;
-            align-items: center;
+        .image-container2 {
+        display: flex;
+        align-items: center;
+        Flex: 50%
+        }
 
+        .vertical-stack {
+        margin-right: 20px;
+        margin-left: 20px;
         }
-        .col2{
-            flex-direction: column;
-            
+        .bottomtext {
+        display: flex;
+        justify-content: space-around;
         }
-        
-        .col3{
+        .parent {
             display: flex;
-            align-items: center;
+            justify-content: space-around;
         }
-        .title2{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            display: flex;
-            flex-wrap: wrap-reverse;
-        }
-        .container{
-            display: flex;
-            flex-direction: column;
-            
-        }
-        .col4{
-            flex-direction: column;
+        .hailey {
+            padding-left: 35px;
         }
     </style>
 </head>
@@ -67,33 +67,40 @@
     </nav>
     <section>
     
-    <h2 class="title">Hailey Bieber: Rhode</h2>
-    <div class="container">
-        <div class="col1"><img src="../images/project 3 images/Hailey_Bieber_2020.jpg" class= "hailey" alt="Hailey Bieber" height="300px" width="488"></div>
-        <div class="col2">
-            <img src="../images/project 3 images/download.png" alt="Rhode"  height="50px">
-            <img src="../images/project 3 images/rib-final-hero_2480x.webp" alt="Balm" height="100px">
-            <img src="../images/project 3 images/Desktop-Ribbon_Grid-2_c305089e-89fe-4873-bbd2-0e5b5ec7a89a_2480x.webp" alt="Lips"  height="100px">
-        </div>
-        
-    </div>
-    <p class="text">Haley Bieber is not only famous from her husband, celebrity and music artist Justin Bieber, but also from her own skincare line Rhode. Rhode is best known for their lip balms and skin products. Hailey frequently drops new lip balms and often collaborates to sponsor with other brands, which makes her product more engaging. </p>
-    </section>
+    <div class="line1">
 
-    <section>
-    <h2 class="title2">Danielle Bernstien: We Wore What</h2>
+            <h2 class="title">Hailey Bieber: Rhode</h2>
+            <h2 class="title2">Danielle Bernstien: We Wore What</h2>
 
-    <div>
-        <div class="col3"><img src="../images/project 3 images/download copy.png" alt="WWW" height="100px"></div>
-        <div class="col4">
-            <img src="../images/project 3 images/danielle-bernstein.webp" alt="Danielle" class="imgs" height="100px">
-            <img src="../images/project 3 images/hbz-weworewhat-danielle-bernstein-overalls-06-1564676163.jpg" alt="DB" class="imgs" height="100px">
-            <img src="../images/project 3 images/new-weworewhat-collection-v0-ro8rslxtpjyb1.webp" alt="Bgas" class="imgs" height="100px">
+        </div>         
+
+<section>
+    <div class="parent">
+        <div class="imagecontainer">
+            <img class="hailey" src="../images/project 3 images/Hailey_Bieber_2020.jpg" alt="Main Image" height="200px" width="200px">
+            <div class="verticalstack">
+                <img src="../images/project 3 images/download.png" alt="Rhode"  height="50px">
+                <img src="../images/project 3 images/rib-final-hero_2480x.webp" alt="Balm" height="100px">
+                <img src="../images/project 3 images/Desktop-Ribbon_Grid-2_c305089e-89fe-4873-bbd2-0e5b5ec7a89a_2480x.webp" alt="Lips"  height="100px">
+
+            </div>
+
+        </div>
+        <div class="imagecontainer2">
+            <img src="../images/project 3 images/download copy.png" alt="WWW" height="100px" width="500px">
+            <div class="verticalstack">
+                <img src="../images/project 3 images/danielle-bernstein.webp" alt="Danielle" class="imgs" height="50px">
+                <img src="../images/project 3 images/hbz-weworewhat-danielle-bernstein-overalls-06-1564676163.jpg" alt="DB" class="imgs" height="100px">
+                <img src="../images/project 3 images/new-weworewhat-collection-v0-ro8rslxtpjyb1.webp" alt="Bgas" class="imgs" height="100px">
+            </div>
         </div>
     </div>
-    
-    <p class="text">Danielle Bernstein is a famous influencer who launched her company, We Wore What, in 2010. She predominantly uses Instagram as her platform to vlog her life and promote her clothing brand. We Wore What launches new lines for each season. For example, during the summer vacation clothes are sold. Her newest line of clothing launched is for the upcoming holiday season, which includes a cozy collection. </p><br>
+        <div class="bottomtext">
+
+            <p class="text">Haley Bieber is not only famous from her husband, celebrity and music artist Justin Bieber, but also from her own skincare line Rhode. Rhode is best known for their lip balms and skin products. Hailey frequently drops new lip balms and often collaborates to sponsor with other brands, which makes her product more engaging. </p>
+
+            <p class="text">Danielle Bernstein is a famous influencer who launched her company, We Wore What, in 2010. She predominantly uses Instagram as her platform to vlog her life and promote her clothing brand. We Wore What launches new lines for each season. For example, during the summer vacation clothes are sold. Her newest line of clothing launched is for the upcoming holiday season, which includes a cozy collection. </p><br>
+
+        </div>
+
     </section>
-</main>
-</body>
-</html>
