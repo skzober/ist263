@@ -14,11 +14,14 @@
         .title,.title2{
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 20px;
+            text-align: center;
         }
-        .text{
+        
+        .text1, .text2{
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-            
+            padding:20px;
         }
+
         .line1 {
         display:flex;
         justify-content: space-around;
@@ -29,15 +32,18 @@
         height: auto;
         display: block;
         }**/
+        
         .image-container {
         display: flex;
         align-items: center;
-        flex: 50%
+        flex: 50% 
+    
         }
         .image-container2 {
         display: flex;
         align-items: center;
-        Flex: 50%
+        flex: 50%
+
         }
 
         .vertical-stack {
@@ -57,39 +63,74 @@
             padding-left: 50px;
             align-items: center;
         }
+        .text{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding:50px
+        }
+        @media only screen and (max-width: 601px){
+        nav a{display:100%}
+        nav a{display: block;}
+        .parent {
+        flex-direction: column;
+        align-items: center;
+        }
+        .imagecontainer, .imagecontainer2 {
+        width: 100%;
+        }
+        .title2{flex-direction: column;}
+        .text1{display: none;}
+    }
+        @media only screen and (min-width:600px){
+            .text{display:none;}
+        }
+        .skip{
+            background-color: #ffffff;
+            padding: 5px;
+            border: 1px solild #000000;
+            text-decoration: none;
+            position:absolute; 
+            top: 10px;
+            left: -999px; 
+        }
+
+        .skip:focus{
+            left: 10px; 
+        }
+        
     </style>
 </head>
 <body>
     <h1 class="maintitle">Famous Influencers</h1>
 <main>
     <nav>
+        <a href="#main" tabindex="1" class="skip">Skip to Content</a><br>
         <a href="home.html">Home | </a>
         <a href="viralproducts.html">Viral Products | </a>
         <a href="influencer.html">Influencers  </a><br>
     </nav>
     <section>
     
-    <div class="line1">
-
-            <h2 class="title">Hailey Bieber: Rhode</h2>
-            <h2 class="title2">Danielle Bernstien: We Wore What</h2>
-
-        </div>         
+    <div class="line1">        
 
 <section>
     <div class="parent">
+
         <div class="imagecontainer">
+            <h2 class="title">Hailey Bieber: Rhode</h2>
             <img class="hailey" src="../images/project 3 images/Hailey_Bieber_2020.jpg" alt="Main Image" height="250px" width="250px">
             <div class="verticalstack">
                 <img src="../images/project 3 images/download.png" alt="Rhode"  height="50px">
-                <img src="../images/project 3 images/rib-final-hero_2480x.webp" alt="Balm" height="100px">
-                <img src="../images/project 3 images/Desktop-Ribbon_Grid-2_c305089e-89fe-4873-bbd2-0e5b5ec7a89a_2480x.webp" alt="Lips"  height="100px">
-
+                <img src="../images/project 3 images/rib-final-hero_2480x.webp" alt="Balm" height="115px">
+                <img src="../images/project 3 images/Desktop-Ribbon_Grid-2_c305089e-89fe-4873-bbd2-0e5b5ec7a89a_2480x.webp" alt="Lips"  height="115px">
+                    <p class="text">Haley Bieber is not only famous from her husband, celebrity and music artist Justin Bieber, but also from her own skincare line Rhode. Rhode is best known for their lip balms and skin products. Hailey frequently drops new lip balms and often collaborates to sponsor with other brands, which makes her product more engaging. </p>
+                
             </div>
 
         </div>
         <div class="imagecontainer2">
-            <img src="../images/project 3 images/download copy.png" alt="WWW" height="100px" width="500px">
+            <h2 class="title2">Danielle Bernstien: We Wore What</h2>
+            <img src="../images/project 3 images/download copy.png" alt="WWW" height="175px" width="450px">
+      
             <div class="verticalstack">
                 <img src="../images/project 3 images/danielle-bernstein.webp" alt="Danielle" class="imgs" height="165px">
                 <img src="../images/project 3 images/hbz-weworewhat-danielle-bernstein-overalls-06-1564676163.jpg" alt="DB" class="imgs" height="165px">
@@ -99,10 +140,10 @@
     </div>
         <div class="bottomtext">
         <div>
-            <p class="text">Haley Bieber is not only famous from her husband, celebrity and music artist Justin Bieber, but also from her own skincare line Rhode. Rhode is best known for their lip balms and skin products. Hailey frequently drops new lip balms and often collaborates to sponsor with other brands, which makes her product more engaging. </p>
+            <p class="text1">Haley Bieber is not only famous from her husband, celebrity and music artist Justin Bieber, but also from her own skincare line Rhode. Rhode is best known for their lip balms and skin products. Hailey frequently drops new lip balms and often collaborates to sponsor with other brands, which makes her product more engaging. </p>
         </div>
         <div>
-            <p class="text">Danielle Bernstein is a famous influencer who launched her company, We Wore What, in 2010. She predominantly uses Instagram as her platform to vlog her life and promote her clothing brand. We Wore What launches new lines for each season. For example, during the summer vacation clothes are sold. Her newest line of clothing launched is for the upcoming holiday season, which includes a cozy collection. </p><br>
+            <p class="text2">Danielle Bernstein is a famous influencer who launched her company, We Wore What, in 2010. She predominantly uses Instagram as her platform to vlog her life and promote her clothing brand. We Wore What launches new lines for each season. For example, during the summer vacation clothes are sold. Her newest line of clothing launched is for the upcoming holiday season, which includes a cozy collection. </p><br>
         </div>
         </div>
 
